@@ -17,16 +17,6 @@ source venv/bin/activate        # Windows : venv\Scripts\activate
 pip install -r backend/requirements.txt
 ```
 
-## Clé API Gemini
-
-Crée une clé sur https://aistudio.google.com/apikey puis :
-
-```bash
-export GENAI_API_KEY="ta_cle"          # Windows PowerShell : $env:GENAI_API_KEY="ta_cle"
-```
-
-Ne mets jamais la clé dans le code. Voir `.env.example`.
-
 ## Lancement
 
 Backend (depuis le dossier `backend/`, l'indexation des PDF se fait au démarrage) :
