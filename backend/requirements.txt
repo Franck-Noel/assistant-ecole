@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+google-generativeai
+chromadb
+PyPDF2
+langchain-text-splitters
+streamlit
+streamlit-mic-recorder
